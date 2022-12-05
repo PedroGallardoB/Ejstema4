@@ -5,19 +5,16 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 
-		double radio;
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);//Creamos el objeto escáner
 
-		System.out.print("Introduzca el radio de la esfera: ");
-		radio = sc.nextInt();
+		System.out.print("Introduzca el radio de la esfera: ");//Pedimos el radio
+		Esfera.rad = sc.nextInt();//Leemos el radio y lo guardamos en la variable global de la clase esfera
 		
-			System.out.println("El área es de " + Esfera.area(radio) + " cm cuadrados");
+			System.out.println("El área es de " + Esfera.area() + " cm cuadrados");//Imprimimos el resultado del área
 		
-			System.out.println("El volumen es de " + Esfera.volumen(radio) + " cm cúbicos");
+			System.out.println("El volumen es de " + Esfera.volumen() + " cm cúbicos");//Imprimimos el resultado del volumen
 		
-		
-
-		sc.close();
+		sc.close();//Cerramos el escáner
 
 	}
 }

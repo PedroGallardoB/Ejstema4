@@ -6,34 +6,20 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int eleccion;
-		Operaciones op = new Operaciones();
-		Scanner sc = new Scanner(System.in);
+		Operaciones op = new Operaciones();//Crea un objeto de la clase operaciones
+		Scanner sc = new Scanner(System.in);//Nombra al escáner
 
-		System.out.print("Introduzca un número: ");
-		op.num1 = sc.nextDouble();
-		System.out.print("Introduzca otro número: ");
-		op.num2 = sc.nextDouble();
+		System.out.print("Introduzca un número: ");//Pide un número para operar 
+		op.num1 = sc.nextDouble();//Guarda un número para operar en las distintas funciones en el objeto op de la clase Operaciones
+		System.out.print("Introduzca otro número: ");//Pide un número para operar 
+		op.num2 = sc.nextDouble();//Guarda un número para operar en las distintas funciones en el objeto op de la clase Operaciones
 
-		System.out.println("Introduzca 1 para sumar");
-		System.out.println("Introduzca 2 para restar");
-		System.out.println("Introduzca 3 para multiplicar");
-		System.out.println("Introduzca 4 para dividir");
-		eleccion = sc.nextInt();
+			System.out.println("Resultado;  " + op.suma());//Muestra el resultado de la suma
+			System.out.println("Resultado;  " + op.resta());//Muestra el resultado de la resta
+			System.out.println("Resultado;  " + op.multiplicacion());//Muestra el resultado de la multiplicación
+			System.out.println("Resultado;  " + op.division());//Muestra el resultado de la división
 
-		if (eleccion == 1) {
-			System.out.println(op.suma());
-		} else if (eleccion == 2) {
-			System.out.println(op.resta());
-		} else if (eleccion == 3) {
-			System.out.println(op.multiplicacion());
-		} else if (eleccion == 4) {
-			System.out.println(op.division());
-		} else {
-			System.out.println("Los carácteres introducidos no eran una opción.");
-		}
-
-		sc.close();
+		sc.close();//Cerramos el escáner
 
 	}
 }

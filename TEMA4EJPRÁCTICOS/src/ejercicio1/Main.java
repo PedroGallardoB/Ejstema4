@@ -6,23 +6,23 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int num;
-		Scanner sc = new Scanner(System.in);
+		int num;//Guarda el número introducido
+		Scanner sc = new Scanner(System.in);//Creamos el objeto escáner
 
-		System.out.print("Introduzca un número: ");
-		num = sc.nextInt();
-		Números obj = new Números();
-		if (obj.esPrimo(num) == false) {
-			System.out.print("No es primo ");
-		} else {
-			System.out.print("Es primo ");
+		System.out.print("Introduzca un número: ");//Pedimos el número
+		num = sc.nextInt();//Leemos el número
+		Números obj = new Números();//Creamos un objeto números
+		if (obj.esPrimo(num) == false) {//Si la función es primo es falsa
+			System.out.print("No es primo ");//Imprimimos no es primo
+		} else {//De lo contrario
+			System.out.print("Es primo ");//Imprimimos es primo
 		}
-		if (obj.esCapicua(num) == false) {
-			System.out.print("y no es capicúa");
-		} else {
-			System.out.print("y es capicúa");
+		if (obj.esCapicua(num) == false) {//Si la función es capicúa es falsa
+			System.out.print("y no es capicúa");//Imprimimos no es capicúa
+		} else {//De lo contrario
+			System.out.print("y es capicúa");//Imprimimos es capicúa
 
 		}
-		sc.close();
+		sc.close();//Cerramos el escáner
 	}
 }
