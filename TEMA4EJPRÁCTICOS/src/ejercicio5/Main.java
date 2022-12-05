@@ -1,7 +1,11 @@
 package ejercicio5;
 
 import java.util.Scanner;
-
+/**
+ * Clase Main
+ * @author Rexil
+ *
+ */
 public class Main {
 	public static void main(String[] args) {
 		int numero;//Guardará el número que se introduce en la primera y tercera función

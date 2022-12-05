@@ -1,4 +1,9 @@
 package ejercicio3;
+/**
+ * Clase que genera números aleatorios
+ * @author Rexil
+ *
+ */
 
 public class NumerosAleatorios {
 	static void numAleatorios(int cantidad) {// Función que imprime números aleatorios del cero al uno

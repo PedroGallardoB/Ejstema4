@@ -1,5 +1,9 @@
 package ejercicio2;
-
+/**
+ * Métodos de área y volumen
+ * @author Rexil
+ *
+ */
 public class Esfera {
 	static double rad;//Variable estática global del valor del radio
 	public static double area() {//Función para calcular el área

@@ -1,5 +1,9 @@
 package ejercicio5;
-
+/**
+ * Método de funciones recursivas
+ * @author Rexil
+ *
+ */
 public class FuncionesRecursivas {
 	
 

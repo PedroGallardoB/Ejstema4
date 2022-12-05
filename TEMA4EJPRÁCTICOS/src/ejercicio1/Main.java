@@ -1,7 +1,11 @@
 package ejercicio1;
 
 import java.util.Scanner;
-
+/**
+ * Clase Main
+ * @author Rexil
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {

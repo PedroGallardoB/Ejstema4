@@ -1,5 +1,11 @@
 package ejercicio1;
 
+/**
+ * Métodos Números
+ * @author Rexil
+ *
+ */
+
 public class Números {
 
 	//Comprueba si el número es primo
